@@ -1,4 +1,4 @@
-runs-on: self-hosted
+runs-on: TRR
 name: "Build and Deploy"
 on:
   push:
