@@ -2,6 +2,7 @@
 layout: default
 refactor: true
 ---
+
 {% include lang.html %}
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
@@ -97,8 +98,6 @@ refactor: true
                     {% endfor %}
                   </span>
                 {% endif %}
-
-                <span class="clap-count-home" data-url="{{ post.url | absolute_url }}"></span>
               </div>
 
               {% if post.pin %}
