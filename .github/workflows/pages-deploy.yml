@@ -1,4 +1,3 @@
-runs-on: TRR
 name: "Build and Deploy"
 on:
   push:
@@ -22,6 +21,8 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
+
+runs-on: TRR
 
 jobs:
   build:
