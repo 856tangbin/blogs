@@ -22,8 +22,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-runs-on: TRR
-
 jobs:
   build:
     runs-on: ubuntu-latest
