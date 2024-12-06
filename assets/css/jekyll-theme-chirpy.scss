@@ -272,14 +272,13 @@ table td:last-child {
 //   font-size: 0.9em;
 // }
 
-// 代码样式
+// // 代码样式
 // code {
 //   background-color: #f3f4f4; //背景色
 //   padding: 0 0 0 0; //间距：上 右 下 左
 
 // }
 
-// 不需要位移
 // .md-fences {
 //   margin-bottom: 15px;
 //   margin-top: 15px;
@@ -302,9 +301,10 @@ margin-left: -1.3em;
   }
 }
 
-.md-fences {
-background-color: #f8f8f8;
-}
+// .md-fences {
+// background-color: #f8f8f8;
+// }
+
 #write pre.md-meta-block {
 padding: 1rem;
   font-size: 85%;
