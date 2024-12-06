@@ -252,39 +252,39 @@ table td:last-child {
   margin-bottom: 0;
 }
 
-// .CodeMirror-lines {
-//   padding-left: 4px;
-// }
+.CodeMirror-lines {
+  padding-left: 4px;
+}
 
-// .code-tooltip {
-//   box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-//   border-top: 1px solid #eef2f2;
-// }
+.code-tooltip {
+  box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+  border-top: 1px solid #eef2f2;
+}
 
-// .md-fences,
-// code,
-// tt {
-//   // border: 1px solid #e7eaed; // 应该是边框，不要边框
-//   background-color: #f8f8f8;
-//   // border-radius: 3px;
-//   padding: 0;
-//   // padding: 2px 4px 0px 4px;
-//   font-size: 0.9em;
-// }
+.md-fences,
+code,
+tt {
+  // border: 1px solid #e7eaed; // 应该是边框，不要边框
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  padding: 0;
+  // padding: 2px 4px 0px 4px;
+  font-size: 0.9em;
+}
 
-// // 代码样式
-// code {
-//   background-color: #f3f4f4; //背景色
-//   padding: 0 0 0 0; //间距：上 右 下 左
+// 代码样式
+code {
+  background-color: #f3f4f4; //背景色
+  padding: 0 0 0 0; //间距：上 右 下 左
 
-// }
+}
 
-// .md-fences {
-//   margin-bottom: 15px;
-//   margin-top: 15px;
-//   padding-top: 8px;
-//   padding-bottom: 6px;
-// }
+.md-fences {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
 
 
 .md-task-list-item > input {
@@ -301,24 +301,23 @@ margin-left: -1.3em;
   }
 }
 
-// .md-fences {
-// background-color: #f8f8f8;
-// }
+.md-fences {
+background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+padding: 1rem;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 3px;
+  color: #777777;
+  margin-top: 0 !important;
+}
 
-// #write pre.md-meta-block {
-// padding: 1rem;
-//   font-size: 85%;
-//   line-height: 1.45;
-//   background-color: #f7f7f7;
-//   border: 0;
-//   border-radius: 3px;
-//   color: #777777;
-//   margin-top: 0 !important;
-// }
-
-// .mathjax-block>.code-tooltip {
-// bottom: .375rem;
-// }
+.mathjax-block>.code-tooltip {
+bottom: .375rem;
+}
 
 .md-mathjax-midline {
   background: #fafafa;
