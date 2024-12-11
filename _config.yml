@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: "https://rrt01.cn/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://rrt01.cn/blogs/assets/images/user.png"
+avatar: "./assets/images/userSetting/user.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
