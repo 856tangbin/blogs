@@ -10,189 +10,186 @@ math: true
 mermaid: true
 ---
 
-1. ## Introduction
+Content of Introduction for hypothesis — testing paper
 
-   Content of Introduction for hypothesis — testing paper
+1. Review the pertinent literature
+2. Present the research question (s)
+3. State briefly the method of investigation
 
-   1. Review the pertinent literature
-   2. Present the research question (s)
-   3. State briefly the method of investigation
 
-   
 
-   Organization
+## Organization
 
-   Known: The known is the first step in the funnel
+**Known**: The known is the first step in the funnel
 
-   Unknown: 
+**Unknown**: 
 
-   - **The unknown is usually just one sentence**. 
-   - The unknown indicates that the work is new.
+- The unknown is usually just one sentence. 
+- The unknown indicates that the work is new.
 
-   Question
+**Question**
 
-   ​	The question is the specific topic of the paper and the end of the funnel.
+​	The question is the specific topic of the paper and the end of the funnel.
 
-   Experimental Approach 
+**Experimental Approach** 
 
-   - The Introduction can end with the statement of the question or can go on to state the experimental approach.
+- The Introduction can end with the statement of the question or can go on to state the experimental approach.
 
-   No Answer, Results, or Implications
+*Note: No Answer, Results, or Implications. The answer to the question should not be included in the Introduction.*
 
-   The answer to the question should not be included in the Introduction.
 
-   
 
-   Technical Details
+## Technical Details
 
-   Tenses in Introduction
+### Tenses in Introduction
 
-   Simple present tense: 
+Simple present tense: 
 
-   1. Introducing the background
-   2. Stating the unknown
-   3. Presenting the hypothesis
+1. Introducing the background
+2. Stating the unknown
+3. Presenting the hypothesis
 
-   
+Simple past tense:
 
-   Simple past tense:
+1. Signal of the question
+2. Experimental approach, and anything else done by you or others in the past
 
-   1. Signal of the question
-   2. Experimental approach, and anything else done by you or others in the past
+Present perfect tense:
 
-   
+1. Reviewing the development or achievement
 
-   Present perfect tense:
 
-   Reviewing the development or achievement
+### Stock phrases for presenting background
 
-   
+- is believed to 
 
-   ### Stock phrases
+  is known to
 
-   1. Stock phrases for presenting background
+  has been reported 
 
-      is believed to 
+  is well documented
 
-      is known to
+  is unknown
 
-      has been reported 
+  is/remains unclear
 
-      is well documented
+  remain elusive/controversial
 
-      is unknown
+  Little is known about…
 
-      is/remains unclear
+  Recent studies have suggested shown that …
 
-      remain elusive/controversial
+  
 
-      Little is known about…
+**Simple sentences**
 
-      Recent studies have suggested shown that …
+The significance of nonalcoholic fatty liver disease (NAFLD) among patients with diabetes is **<u>unknown</u>**.
 
-      **Simple sentences**
+Quantitative differences in the abundance of transcripts **<u>has been demonstrated</u>** in malignancies, but gene expression from a large community-based cohort examining risk of cardiovascular disease **<u>has never been reported</u>**.
 
-      The significance of nonalcoholic fatty liver disease (NAFLD) among patients with diabetes is **<u>unknown</u>**.
+*Epstein-Barr virus (EBV) infections, associated with posttransplant lymphoproliferative disorder* (PTLD) <u>**are known to**</u> develop in cytomegalovirus (CMV)-infected transplant recipients due to the indirect effects of CMV.
 
-      Quantitative differences in the abundance of transcripts **<u>has been demonstrated</u>** in malignancies, but gene expression from a large community-based cohort examining risk of cardiovascular disease **<u>has never been reported</u>**.
+Viral eradication in chronic hepatitis C patients with sustained virological response (SVR) after interferon (IFN) therapy **<u>remains controversial</u>**.
 
-      *Epstein-Barr virus (EBV) infections, associated with posttransplant lymphoproliferative disorder* (PTLD) <u>**are known to**</u> develop in cytomegalovirus (CMV)-infected transplant recipients due to the indirect effects of CMV.
+The molecular events underlying the progression of T-lymphoblastic lymphoma (T-LBL) to acute T lymphoblastic leukemia (T-ALL) **<u>remain elusive</u>**.
 
-      Viral eradication in chronic hepatitis C patients with sustained virological response (SVR) after interferon (IFN) therapy **<u>remains controversial</u>**.
+**<u>Little is known about</u>** the impact liver transplantation has during adolescence.
 
-      The molecular events underlying the progression of T-lymphoblastic lymphoma (T-LBL) to acute T lymphoblastic leukemia (T-ALL) **<u>remain elusive</u>**.
+<u>**It is, however, unclear how**</u> natural hosts can sustain high viral loads, comparable to those observed in the pathogenic model, without developing severe disease.
 
-      **<u>Little is known about</u>** the impact liver transplantation has during adolescence.
+**<u>Recent studies have suggested</u>** that intrahepatic biliary epithelial cells can transform into myofibroblasts
 
-      <u>**It is, however, unclear how**</u> natural hosts can sustain high viral loads, comparable to those observed in the pathogenic model, without developing severe disease.
 
-      **<u>Recent studies have suggested</u>** that intrahepatic biliary epithelial cells can transform into myofibroblasts
 
-   2. Stock phrases to describe Objectives: 
 
-      To do …
 
-      The objective of the present study was to …
+### Stock phrases to describe Objectives: 
 
-      The aim of this study was to …
+- To do …
 
-      The study was designed to …
+  The objective of the present study was to …
 
-      We sought to …
+  The aim of this study was to …
 
-      We aimed to …
+  The study was designed to …
 
-      **Sample sentences**
+  We sought to …
 
-      **<u>To describe</u>** the severity of 2009 influenza A (H1N1) illness and the association with early antiviral treatment among pregnant women in the United States.
+  We aimed to …
 
-      **<u>To determine</u>** whether B-vitamin therapy can slow progression of diabetic nephropathy and prevent vascular complications.
 
-      **<u>To assess</u>** the safety and effectiveness of prophylaxis for venous thromboembolism (VTE) in a large population of patients with hepatocellular carcinoma (HCC) on cirrhosis.
+**Sample sentences**
 
-      **<u>The aim of this study was to determine</u>** whether the risk of systemic disease after esophagectomy could be predicted by angiogenesis-related gene polymorphisms.
+**<u>To describe</u>** the severity of 2009 influenza A (H1N1) illness and the association with early antiviral treatment among pregnant women in the United States.
 
-      **<u>We sought to identify</u>** risk factors for VTE with a focus on risk factors for atherosclerotic disease.
+**<u>To determine</u>** whether B-vitamin therapy can slow progression of diabetic nephropathy and prevent vascular complications.
 
-      **<u>The objective of the present study was to investigate</u>** whether atherosclerotic plaque composition is associated with the occurrence of future vascular events.
+**<u>To assess</u>** the safety and effectiveness of prophylaxis for venous thromboembolism (VTE) in a large population of patients with hepatocellular carcinoma (HCC) on cirrhosis.
 
-   
+**<u>The aim of this study was to determine</u>** whether the risk of systemic disease after esophagectomy could be predicted by angiogenesis-related gene polymorphisms.
 
-   
+**<u>We sought to identify</u>** risk factors for VTE with a focus on risk factors for atherosclerotic disease.
 
-   ### Standard of A Good Introduction
+**<u>The objective of the present study was to investigate</u>** whether atherosclerotic plaque composition is associated with the occurrence of future vascular events.
 
-   Being informative 
 
-   It covers all the necessary parts (ABCD).
 
-   It contains a clear message.
 
-   
 
-   Being clear 
+## Standard of A Good Introduction
 
-   It is well-organized.
+Being informative 
 
-   each part is coherent with each other.
+It covers all the necessary parts (ABCD).
 
-   The question(s) is/are precisely stated.
+It contains a clear message.
 
-   Achieving coherence
 
-   1. transition
 
-      Transitions between paragraphs: Use transitional sentences
+### Being clear 
 
-      Transition within paragraphs: Use transitional words/phrases:
+- It is well-organized.
 
-      ​	However, also, in addition, consequently, afterwards, moreover, Furthermore, further, although, unlike, in contrast, Similarly, Unfortunately, alternatively, parallel results, In order to, despite, For example, Compared with, other results, thus, therefore….
+- each part is coherent with each other.
 
-   2. Repetition of key terms
+- The question(s) is/are precisely stated.
 
-   3. Stating the question(s) precisely
 
-   4. Highlighting the originality:
 
-      Emphasizing the Newness and Importance
 
-   5. Being concise
+### Achieving coherence
 
-      Length: generally 1-3 paragraphs, 250-300 words
+**transition**
 
-      Do not review the topic. That is what review articles are for. (citing reference)
+- Transitions between paragraphs: Use transitional sentences
 
-   
+- Transition within paragraphs: Use transitional words/phrases:
 
-   Citing reference in Introduction
+  - However, also, in addition, consequently, afterwards, moreover, Furthermore, further, although, unlike, in contrast, Similarly, Unfortunately, alternatively, parallel results, In order to, despite, For example, Compared with, other results, thus, therefore….
 
-   Principles:
 
-   1. Keep to a minimum
-   2. Select papers that described…
 
-   The most relevant, 
+**Repetition of key terms**
 
-   The most important,
+**Stating the question(s) precisely**
 
-   and the most recent ones. 
+**Highlighting the originality:**
+
+- Emphasizing the Newness and Importance
+
+**Being concise**
+
+- Length: **generally 1-3 paragraphs, 250-300 words**
+
+- Do not review the topic. That is what review articles are for. (citing reference)
+
+
+
+### Citing reference in Introduction
+
+Principles:
+
+1. Keep to a minimum
+2. Select papers that described…
+
+The most relevant, The most important, and the most recent ones. 

@@ -1,6 +1,6 @@
 ---
 title: Discussion
-description:  a mini version, a condensed summary of your paper that stands on its own.
+description: To answer the question(s) posed in the Introduction. To explain how the results support the answers. To explain how the answers fit in with existing knowledge.
 author: tangb
 date: 2024-12-21 15:33:00 +0800
 categories: [Writing, Subsections]
@@ -10,49 +10,37 @@ math: true
 mermaid: true
 ---
 
-## Discussion
+## Organization
 
-Functions
+### Contents of Discussion
 
-To answer the question(s) posed in the Introduction
+- Beginning 
 
-To explain how the results support the answers.
+  - **Brief summary** of results and statement of major conclusions
 
-To explain how the answers fit in with existing knowledge.
+- Development
 
+  - **Correlation** of the present study with existing ones (stressed)
 
+  - Analysis of **unexpected findings**
+  - Statement of **limitations** of the present study
 
-### Organization
+- Ending
 
-Contents of Discussion
-
-Beginning 
-
-- **Brief summary** of results and statement of major conclusions
-
-Development
-
-- **Correlation** of the present study with existing ones (stressed)
-- Analysis of **unexpected findings**
-- Statement of **limitations** of the present study
-
-Ending
-
-- Implications of the present study and **prospect of future research**
+  - Implications of the present study and **prospect of future research**
 
 
 
-Organization (Guiding principles)
+## Organization (Guiding principles)
 
-a strong beginning
+- a strong beginning
 
-a full development
+- a full development
 
-a strong ending
+- a strong ending
 
 
-
-A strong beginning of the Discussion:
+### A strong beginning of the Discussion
 
 First, answer the questions.
 
@@ -64,19 +52,17 @@ First, answer the questions.
 
 
 
-A full development in the middle:
+### A full development in the middle
 
-the Order: from the most important to the least imporant
+the Order: from the most important to the least important
 
 First, support, explain, and defend the answer.
 
 - Support the answer(s).
 
-  Use both your own results and others’ results when relevant.
-
-  Cite figures and tables when they would be helpful.
-
-  Cite appropriate references for others’ results.
+  - Use both your own results and others’ results when relevant.
+  - Cite figures and tables when they would be helpful.
+  - Cite appropriate references for others’ results.
 
 - Explain why the answer is reasonable or how the answer fits in with published ideas on the topic if necessary.
 
@@ -94,119 +80,119 @@ Then, explain—
 
 
 
-### A strong ending of the Discussion: 
+### A strong ending of the Discussion
 
 conclude by making a point: 
 
 1. Restate the answer(s) to the question(s).
 
-   In conclusion/ In summary
-
-   This study shows that …, or 
-
-   Our results indicate that …
+   - In conclusion/ In summary
+   - This study shows that …, or 
+   - Our results indicate that …
 
 2. Indicate the importance of the work by stating: 
 
-   Applications of the answer.
-
-   Recommendations based on the answer.
-
-   Implications of the answer.
-
-   Speculations based on the answer. 
+   - Applications of the answer.
+   - Recommendations based on the answer.
+   - Implications of the answer.
+   - Speculations based on the answer. 
 
 3. First restate the answer and then indicated the importance of the work.
 
 
 
-### Technical Details
+## Technical Details
 
-Tenses 
+### Tenses 
 
-**Present tense**:  for known or proved facts
+- **Present tense**:  for known or proved facts
 
-**Present perfect tense**: for review of achievement
-
-**Past tense:** for description of the current study
-
-
-
-Stock phrases
-
-Stock phrases to describe associations: 
-
-is associated with …
-
-was positively associated/correlated with…
-
-was inversely associated/correlated with…
-
-was significantly associated with …
-
-were inversely related to…
+- **Present perfect tense**: for review of achievement
+- **Past tense:** for description of the current study
 
 
 
-Stock phrases to describe conclusions:
+### Stock phrases
 
-This study demonstrates that …
+**Stock phrases to describe associations**: 
 
-This study suggest that …
+- is associated with …
 
-Our results display that …
+- was positively associated/correlated with…
 
-The results support that …
+- was inversely associated/correlated with…
 
+- was significantly associated with …
 
-
-Stock phrases to describe limitations:
-
-The study may have been too small …
-
-… limits the generalizability of results.
-
-Our study is limited by …
-
-The study has inherent weaknesses, such as …
+- were inversely related to…
 
 
 
-Stock phrases to describe implications:
 
-This study has significant implications for …
+**Stock phrases to describe conclusions:**
 
-This study adds new insight to …
+- This study demonstrates that …
 
-These findings provide a unique view of …
+- This study suggest that …
 
-This technique has the potential for …
+- Our results display that …
 
-Our study sheds some light on …
-
-
-
-Stock phrases to describe future studies:
-
-requires further study.
-
-Additional research is needed …
-
-… warrant further confirmation.
-
-Future studies should …
+- The results support that …
 
 
 
-### Reminder 
+
+**Stock phrases to describe limitations:**
+
+- The study may have been too small …
+
+- … limits the generalizability of results.
+
+- Our study is limited by …
+
+- The study has inherent weaknesses, such as …
+
+
+
+
+**Stock phrases to describe implications:**
+
+- This study has significant implications for …
+
+- This study adds new insight to …
+
+- These findings provide a unique view of …
+
+- This technique has the potential for …
+
+- Our study sheds some light on …
+
+
+
+
+**Stock phrases to describe future studies:**
+
+- requires further study.
+
+- Additional research is needed …
+
+- … warrant further confirmation.
+
+- Future studies should …
+
+
+
+
+### Reminder  (Avoid)
 
 Avoid priority statements like:
 
-We firstly proved/reported/ …
+1. We firstly proved/reported/ …
 
-For the first time we prov1ed/reported/ …
+2. For the first time we prov1ed/reported/ …
 
-“To our knowledge, this is the first report…”
+3. “To our knowledge, this is the first report…”
+
 
 
 
