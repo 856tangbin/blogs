@@ -3,8 +3,8 @@ title: Discussion
 description: To answer the question(s) posed in the Introduction. To explain how the results support the answers. To explain how the answers fit in with existing knowledge.
 author: tangb
 date: 2024-12-21 15:33:00 +0800
-categories: [Writing, Subsections]
-tags: [Writing, Discussion]
+categories: [学术写作, 论文各节]
+tags: [论文结构, Discussion, 结论推导, 写作技巧]
 pin: true
 math: true
 mermaid: true

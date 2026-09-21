@@ -3,8 +3,8 @@ title: Call variants
 description: 测序已经将基因组的片段检测出来，下一步是将这些基因组片段进行组装拼接得到全基因组序列；并且还可以进一步比对参考基因组序列，找出个体的基因组突变(call variants)。
 author: tangb
 date: 2025-01-03 9:33:00 +0800
-categories: [生物信息学, 生物数据提取]
-tags: [生物信息学, 生物数据提取, call variants]
+categories: [生物信息学, 测序与变异]
+tags: [变异检测, 序列比对, BWA, GATK, 质控]
 pin: true
 math: true
 mermaid: true
