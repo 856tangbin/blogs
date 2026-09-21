@@ -1,0 +1,129 @@
+version: 1
+updated_at: 2026-09-21
+pin_limit: 2
+
+# 分类只使用两级：一级表示长期内容板块，二级表示稳定的主题范围。
+# 不在 front matter 中使用文章标题作为分类。
+categories:
+  生物信息学:
+    - 测序与数据提取
+    - 基因组分析
+    - 遗传率与遗传相关
+  统计与因果推断:
+    - 回归与模型
+    - 贝叶斯与 MCMC
+    - 孟德尔随机化
+  论文写作:
+    - 结构与章节
+    - 学术表达
+  软件与效率:
+    - 环境与部署
+    - 编程与工具
+  科研生活:
+    - 学习方法
+    - 科研随笔
+    - 读书笔记
+    - 成长与职业
+
+# 标签描述“具体讲了什么”，必须从这个白名单选取。
+# 新增标签前先更新本文件；不要使用一级分类词或当前二级分类作为标签。
+tags:
+  - 线性回归
+  - 加权最小二乘
+  - 广义线性模型
+  - 贝叶斯推断
+  - MCMC
+  - PyMC
+  - 后验预测
+  - 孟德尔随机化
+  - IVW
+  - MR-Egger
+  - 多效性
+  - 遗传率
+  - LDSC
+  - 遗传相关
+  - GWAS
+  - 测序原理
+  - 变异检测
+  - 基因组组装
+  - 基因组注释
+  - 非编码RNA
+  - 重复序列
+  - 共线性
+  - 连锁不平衡
+  - Python
+  - R
+  - Docker
+  - conda
+  - Shell
+  - BWA
+  - GATK
+  - samtools
+  - FastQC
+  - 学术写作
+  - 论文结构
+  - 摘要
+  - 引言
+  - 方法
+  - 结果
+  - 讨论
+  - 时态
+  - 常用句式
+  - 参考文献
+  - 学习方法
+  - 知识管理
+  - 时间管理
+  - 科研随笔
+  - 读书笔记
+  - 职业成长
+  - 英文阅读
+  - 写作习惯
+  - 经验复盘
+
+# 旧标签的规范写法。校验器遇到别名时提示替换为目标标签。
+tag_aliases:
+  pyMC: PyMC
+  pymc: PyMC
+  docker: Docker
+  python: Python
+  r: R
+  加权: 加权最小二乘
+  MR方法原理: 孟德尔随机化
+  'Call variants': 变异检测
+  'call variants': 变异检测
+  Writing: 学术写作
+  Abstract: 摘要
+  Introduction: 引言
+  Methods: 方法
+  Results: 结果
+  Discussion: 讨论
+
+# 旧文章分类到新分类的迁移表。数组形式避免把分类路径误当成 YAML 键。
+category_aliases:
+  - source: [模型, 线性模型]
+    target: [统计与因果推断, 回归与模型]
+  - source: [Writing, Subsections]
+    target: [论文写作, 结构与章节]
+  - source: [生物信息学, 生物数据提取]
+    target: [生物信息学, 测序与数据提取]
+  - source: [生物信息学, 基因组分析]
+    target: [生物信息学, 基因组分析]
+  - source: [统计方法, 马尔可夫链蒙特卡洛法]
+    target: [统计与因果推断, 贝叶斯与 MCMC]
+  - source: [软件工具, 环境管理, docker]
+    target: [软件与效率, 环境与部署]
+  - source: [MR方法原理]
+    target: [统计与因果推断, 孟德尔随机化]
+  - source: [MR方法原理, IVW]
+    target: [统计与因果推断, 孟德尔随机化]
+
+# 这些文章在本阶段不做改动，后续迁移阶段统一移入 _drafts。
+draft_migration:
+  fixed:
+    - _posts/基因组遗传率计算.md
+    - _posts/马尔客服蒙特卡洛法(案例补充1).md
+    - _posts/2025-05-01-pyMC基本用法.md
+
+# 图片目录的用户资源和站点资源不参与文章目录一致性检查。
+asset_exempt_directories:
+  - userSetting
