@@ -259,7 +259,8 @@ def strip_fenced_code(text: str) -> str:
             output.append("")
             continue
         output.append("" if in_fence else line)
-    return "\n".join(output)
+    content = "\n".join(output)
+    return re.sub(r"`+[^`\n]*`+", "", content)
 
 
 def extract_image_sources(text: str) -> List[str]:
@@ -613,6 +614,50 @@ def check_code_blocks(path: Path, body: str, report: Report) -> None:
         report.add("ERROR", "math_delimiter", path, "$$ 数学公式分隔符数量为奇数")
 
 
+def check_math_style(path: Path, body: str, report: Report) -> None:
+    content = strip_fenced_code(body)
+
+    for match in re.finditer(r"\$\$", content):
+        position = match.start()
+        line_start = content.rfind("\n", 0, position) + 1
+        if content[line_start:position].strip():
+            line_number = content.count("\n", 0, position) + 1
+            report.add(
+                "ERROR",
+                "display_math_linebreak",
+                path,
+                "行间公式的 $$ 必须在行首；第 {} 行的 $$ 前需要换行".format(
+                    line_number
+                ),
+            )
+
+    display_spans = [
+        match.group(1)
+        for match in re.finditer(r"\$\$(.*?)\$\$", content, re.DOTALL)
+    ]
+    without_display = re.sub(r"\$\$(.*?)\$\$", "", content, flags=re.DOTALL)
+    inline_spans = [
+        match.group(1)
+        for match in re.finditer(r"(?<!\$)\$([^$\n]+)\$(?!\$)", without_display)
+    ]
+
+    for span in display_spans + inline_spans:
+        if re.search(r"\\\*", span):
+            report.add(
+                "ERROR",
+                "math_ast",
+                path,
+                "公式中的 \\* 应替换为 \\ast",
+            )
+        if "|" in span:
+            report.add(
+                "ERROR",
+                "math_vert",
+                path,
+                "公式中的绝对值竖线 | 应替换为 \\vert、\\lvert 或 \\rvert",
+            )
+
+
 def check_math_switches(
     path: Path,
     front_matter: Dict[str, object],
@@ -710,6 +755,7 @@ def check_file(
     check_filename(path, kind, front_matter, report)
     check_images(path, body, report)
     check_code_blocks(path, body, report)
+    check_math_style(path, body, report)
     return pin_value
 
 
