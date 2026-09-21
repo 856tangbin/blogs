@@ -3,8 +3,8 @@ title: Introduction
 description: Review the pertinent literature; Present the research question(s); State briefly the method of investigation. 
 author: tangb
 date: 2024-12-19 15:33:00 +0800
-categories: [学术写作, 论文各节]
-tags: [论文结构, Introduction, 文献综述, 写作技巧]
+categories: [Writing, Subsections]
+tags: [Writing, Introduction]
 pin: true
 math: true
 mermaid: true
