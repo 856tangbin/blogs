@@ -5,7 +5,7 @@ author: tangb
 date: 2025-01-03 9:33:00 +0800
 categories: [生物信息学, 生物数据提取]
 tags: [生物信息学, 生物数据提取, call variants]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---
