@@ -5,7 +5,7 @@ author: tangb
 date: 2024-12-19 15:33:00 +0800
 categories: [Writing, Subsections]
 tags: [Writing, Introduction]
-pin: true
+pin: false
 math: true
 mermaid: true
 ---
