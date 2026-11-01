@@ -101,7 +101,7 @@ multiqc .
 
 ### 2 Bwa mem：映射 reads 到参考基因组
 
-下机数据 .fastq 文件包含了测序仪器输出的原始序列读数（reads, “ATTCCGACTTAGGGCACGT” 这样的序列)。这些 reads 的长度一般在 50-300 bp，其中记录了每个碱基的序列信息及其质量值，一个测序实验通常会生成上亿甚至上千亿条 reads，它们在长度和质量上具有一定的分布统计特征.
+下机数据 .fastq 文件包含了测序仪器输出的原始序列读数（reads, “ATTCCGACTTAGGGCACGT” 这样的序列）。这些 reads 的长度一般在 50-300 bp，其中记录了每个碱基的序列信息及其质量值，一个测序实验通常会生成上亿甚至上千亿条 reads，它们在长度和质量上具有一定的分布统计特征.
 
 BWA（Burrows-Wheeler Aligner）是一种用于将短 reads 映射到参考基因组的快速且精确的序列比对工具。操作命令：
 

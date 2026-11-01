@@ -38,9 +38,7 @@ E[χj2]=1+N⋅h2M⋅ℓj+N⋅τ*E*[*χ**j*2]=1+*N*⋅*M**h*2⋅ℓ*j*+*N*⋅*τ*
 
 LDSC 官方代码基于 Python 2.7，使用 conda 创建独立环境。
 
-bash
-
-```
+```bash
 conda create -n ldsc python=2.7
 conda activate ldsc
 ```
@@ -51,9 +49,7 @@ conda activate ldsc
 
 从 GitHub 下载代码：
 
-bash
-
-```
+```bash
 git clone https://github.com/bulik/ldsc.git
 cd ldsc
 ```
@@ -62,9 +58,7 @@ cd ldsc
 
 安装依赖包：
 
-bash
-
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -99,9 +93,7 @@ LDSC 需要参考 LD 分数文件和 HapMap3 SNP 列表。
 
 **R 代码**：
 
-r
-
-```
+```r
 library(data.table)
 library(SNPlocs.Hsapiens.dbSNP144.GRCh37)
 
@@ -145,9 +137,7 @@ fwrite(gwas_final, "c_Bacilli_with_rsid_final.csv")
 
 ### 3.2 与参考面板合并（验证过程）
 
-r
-
-```
+```r
 ref_dir <- "D:/桌面/ldsc/ref/eas_w_ld_chr/"
 ld_files <- list.files(ref_dir, pattern = "\\.l2\\.ldscore\\.gz$", full.names = TRUE)
 ref_snps <- unique(rbindlist(lapply(ld_files, fread, select = "SNP")))
@@ -167,9 +157,7 @@ fwrite(gwas_ready, "c_Bacilli_ready_for_munge.csv")
 
 由于 `munge_sumstats.py` 一直报错，改用 Python 脚本手动生成。（由deepseek生成）
 
-python
-
-```
+```python
 import gzip
 
 input_file = 'c_Bacilli_ready_for_munge.csv'
@@ -203,9 +191,7 @@ print("Done")
 
 代谢组与微生物组方法完全一致，仅输入输出文件名不同。以下为完整代码：
 
-r
-
-```
+```r
 library(data.table)
 library(SNPlocs.Hsapiens.dbSNP144.GRCh37)
 
@@ -247,9 +233,7 @@ fwrite(metabo_final, "1methyl_with_rsid_final.csv")
 
 ### 4.2 与参考面板合并（验证）
 
-r
-
-```
+```r
 ref_dir <- "D:/桌面/ldsc/ref/eas_w_ld_chr/"
 ld_files <- list.files(ref_dir, pattern = "\\.l2\\.ldscore\\.gz$", full.names = TRUE)
 ref_snps <- unique(rbindlist(lapply(ld_files, fread, select = "SNP")))
@@ -267,9 +251,7 @@ fwrite(metabo_ready, "1methylhistidine_ready_for_munge.csv")
 
 ### 4.3 生成 `.sumstats.gz`（Python 脚本）
 
-python
-
-```
+```python
 import gzip
 
 input_file = '1methylhistidine_ready_for_munge.csv'
@@ -303,9 +285,7 @@ print("Done")
 
 LDSC 运行的基本命令格式如下：
 
-bash
-
-```
+```bash
 python ldsc.py --h2 <sumstats_file> --ref-ld-chr <ref_dir> --w-ld-chr <ref_dir> --out <output_prefix>
 ```
 
@@ -315,9 +295,7 @@ python ldsc.py --h2 <sumstats_file> --ref-ld-chr <ref_dir> --w-ld-chr <ref_dir> 
 
 **生成 sumstats**（执行 Python 脚本）：
 
-bash
-
-```
+```bash
 conda activate ldsc
 cd D:\桌面\ldsc
 python make_sumstats_microbe.py   # 对应上述微生物组 Python 脚本，文件名为 make_sumstats_microbe.py
@@ -327,9 +305,7 @@ python make_sumstats_microbe.py   # 对应上述微生物组 Python 脚本，文
 
 **运行 LDSC**：
 
-bash
-
-```
+```bash
 python ldsc.py --h2 c_Bacilli_final.sumstats.gz --ref-ld-chr ref/eas_w_ld_chr/ --w-ld-chr ref/eas_w_ld_chr/ --out c_Bacilli_final_h2
 ```
 
@@ -339,9 +315,7 @@ python ldsc.py --h2 c_Bacilli_final.sumstats.gz --ref-ld-chr ref/eas_w_ld_chr/ -
 
 **生成 sumstats**（执行 Python 脚本）：
 
-bash
-
-```
+```bash
 conda activate ldsc
 cd D:\桌面\ldsc
 python make_sumstats_metab.py   # 对应上述代谢组 Python 脚本，文件名为 make_sumstats_metab.py
@@ -351,9 +325,7 @@ python make_sumstats_metab.py   # 对应上述代谢组 Python 脚本，文件�
 
 **运行 LDSC**：
 
-bash
-
-```
+```bash
 python ldsc.py --h2 1methylhistidine_final.sumstats.gz --ref-ld-chr ref/eas_w_ld_chr/ --w-ld-chr ref/eas_w_ld_chr/ --out 1methylhistidine_final_h2
 ```
 
@@ -365,9 +337,7 @@ python ldsc.py --h2 1methylhistidine_final.sumstats.gz --ref-ld-chr ref/eas_w_ld
 
 ### 6.1 微生物组结果
 
-text
-
-```
+```text
 After merging with reference panel LD, 88011 SNPs remain.
 Total Observed scale h2: -0.481 (0.3956)
 Lambda GC: 0.9976
@@ -379,9 +349,7 @@ Intercept: 1.0172 (0.0139)
 
 ### 6.2 代谢组结果
 
-text
-
-```
+```text
 After merging with reference panel LD, 88011 SNPs remain.
 Total Observed scale h2: -0.6846 (0.3581)
 Lambda GC: 1.0074
